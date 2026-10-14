@@ -15,8 +15,6 @@ async function _connectToMongoDB(): Promise<Db> {
     if (database) return database;
 
     try {
-        console.log("User:" + USERNAME);
-        console.log("Pass: " + PASSWORD);
         client = new MongoClient(
             `mongodb+srv://${USERNAME}:${PASSWORD}@portfolio-content.9mbe1sd.mongodb.net/?appName=portfolio-content`,
             {
