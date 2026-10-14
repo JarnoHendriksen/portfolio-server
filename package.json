@@ -14,7 +14,7 @@
   "type": "module",
   "main": "main.ts",
   "scripts": {
-    "start": "node --env-file=.env src/main.ts",
+    "start": "node src/main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

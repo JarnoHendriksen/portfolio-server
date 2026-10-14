@@ -3,7 +3,7 @@ import express, { type Express, type Request, type Response } from "express";
 import * as db from "./database.ts";
 
 const app: Express = express();
-const port = 3100;
+const port = process.env.port || 3100;
 
 app.use(express.static("static"));
 
