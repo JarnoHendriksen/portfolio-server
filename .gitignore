@@ -147,7 +147,3 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
-
-# Ignore contents of submodule portfolio-client
-portfolio-client/
-!portfolio-client/.git
